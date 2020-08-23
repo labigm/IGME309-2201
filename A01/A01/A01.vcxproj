@@ -152,8 +152,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="A01.cpp" />
+    <ClCompile Include="Alberto.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Alberto.h" />
     <ClInclude Include="Queue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

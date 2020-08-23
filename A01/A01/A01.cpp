@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <crtdbg.h>
 #include "Queue.h"
+#include "Alberto.h"
 
 void wrapper()
 {
@@ -65,6 +66,31 @@ void wrapper()
 	//Print
 	charQueue.Print();
 	cout << "Size: " << charQueue.GetSize() << endl;
+
+	cout << endl;//Formatting
+
+	//Alberto Class
+	Queue<AlbertoClass> albertoQueue;
+
+	//Push
+	albertoQueue.Push(AlbertoClass(7));
+	albertoQueue.Push(AlbertoClass(1));
+	albertoQueue.Push(AlbertoClass(5));
+
+	//Print
+	albertoQueue.Print();
+	cout << "Size: " << albertoQueue.GetSize() << endl;
+
+	cout << endl;//Formatting
+
+	albertoQueue.Pop();
+	cout << "Popped Element" << endl;
+
+	cout << endl;//Formatting
+
+	//Print
+	albertoQueue.Print();
+	cout << "Size: " << albertoQueue.GetSize() << endl;
 }
 
 int main()
