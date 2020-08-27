@@ -1,11 +1,18 @@
-# Prerequisites
-*.d
+# Specific files and folders
+_Binary/*D.exe
+_Binary/*D.cfg
+_Binary/01_Basics.cfg
+_Binary/01_BasicsD.cfg
+_Binary/Simplex_d.dll
+Z_DELETE
 
 # Compiled Object files
 *.slo
 *.lo
 *.o
-*.obj
+
+# Visual Studio specifics
+*.suo
 
 # Precompiled Headers
 *.gch
@@ -14,19 +21,24 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
-*.smod
 
 # Compiled Static libraries
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
-*.exe
 *.out
 *.app
+*.sdf
+*.opensdf
+
+# Interpreter
+*.stackdump
+*.opendb
+*.db
+.vs/
+_Binary/*_d.ini
