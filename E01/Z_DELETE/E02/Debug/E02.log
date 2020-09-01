@@ -1,8 +1,11 @@
-﻿LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+﻿  shader.cpp
+  Main.cpp
+  Generating Code...
   E02.vcxproj -> C:\Users\pierc\source\repos\IGME309-2201\E01\Z_DELETE\E02_d.exe
   Copying binary...
   A subdirectory or file C:\Users\pierc\source\repos\IGME309-2201\E01\_Binary\ already exists.
           1 file(s) copied.
+  A subdirectory or file C:\Users\pierc\source\repos\IGME309-2201\E01\_Binary\Shaders\ already exists.
   C:\Users\pierc\source\repos\IGME309-2201\E01\include\OpenGL-Tutorials\shaders\Simple.fs
   C:\Users\pierc\source\repos\IGME309-2201\E01\include\OpenGL-Tutorials\shaders\Simple.vs
           2 file(s) copied.

@@ -107,7 +107,7 @@ END
 
 STRINGTABLE  
 BEGIN
-   IDC_ICON             "ICON4"
+   IDC_ICONE           "ICON4"
    IDS_APP_TITLE       "ICON4"
 END
 
