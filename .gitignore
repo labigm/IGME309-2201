@@ -1,37 +1,7 @@
-# Specific files and folders
-_Binary/*D.exe
-_Binary/*D.cfg
-_Binary/01_Basics.cfg
-_Binary/01_BasicsD.cfg
-Z_DELETE
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-
-# Visual Studio specifics
-*.suo
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-
-# Executables
-*.out
-*.app
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+=======
 *.sdf
 *.opensdf
 
@@ -41,3 +11,4 @@ Z_DELETE
 *.db
 .vs/
 _Binary/*_d.ini
+
