@@ -1,0 +1,23 @@
+﻿  AppClass.cpp
+C:\Users\pierc\source\repos\IGME309-2201\E05 - Transformations\AppClass.cpp(5,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\pierc\source\repos\IGME309-2201\E05 - Transformations\AppClass.cpp(142,21): warning C4018: '<': signed/unsigned mismatch
+  E05 - Transformations.vcxproj -> C:\Users\pierc\source\repos\IGME309-2201\Z_DELETE\E05 - Transformations_d.exe
+  Copying Shaders...
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Basic-Instanced.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Basic.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Basic.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\BasicColor.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\BasicColor.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Line.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Line.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Minimal.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Minimal.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\MinimalRed.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Simplex.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Simplex.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Skybox.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Skybox.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Text.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Text.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Wireframe.fs
+  17 File(s) copied

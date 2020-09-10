@@ -1,0 +1,35 @@
+﻿  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  AppClass.cpp
+  AppClassControls.cpp
+  AppClassGUI.cpp
+  AppClassMain.cpp
+  ControllerConfiguration.cpp
+  Main.cpp
+  MyMesh.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 912 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  E05 - Transformations.vcxproj -> C:\Users\pierc\source\repos\IGME309-2201\Z_DELETE\E05 - Transformations.exe
+  Copying files...
+          1 file(s) copied.
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Basic-Instanced.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Basic.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Basic.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\BasicColor.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\BasicColor.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Line.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Line.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Minimal.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Minimal.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\MinimalRed.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Simplex.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Simplex.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Skybox.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Skybox.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Text.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Text.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Wireframe.fs
+  17 File(s) copied
