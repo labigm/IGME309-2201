@@ -275,9 +275,29 @@ void MyMesh::GenerateCone(float a_fRadius, float a_fHeight, int a_nSubdivisions,
 	Release();
 	Init();
 
-	// Replace this with your code
-	GenerateCube(a_fRadius * 2.0f, a_v3Color);
-	// -------------------------------
+	std::vector<vector3> verticies;//Holds all the verticies
+	float angle = 0;//Angle being changed
+	float change = (2 * PI) / a_nSubdivisions;
+
+	//Add the verticies to the vector
+	for (int i = 0; i < a_nSubdivisions; i++)
+	{
+		verticies.push_back(vector3(
+			cos(angle) * a_fRadius, 
+			sin(angle) * a_fRadius, 
+			a_fHeight/2));
+		angle += change;//Increment angle
+	}
+	//Add the Tris
+	for (int i = 0; i < a_nSubdivisions; i++)
+	{
+		AddTri(vector3(0.0f, 0.0f, a_fHeight/2), 
+			verticies[i], 
+			verticies[(i + 1) % a_nSubdivisions]);//Bottom face
+		AddTri(verticies[i], 
+			vector3(0.0f, 0.0f, -a_fHeight/2), 
+			verticies[(i + 1) % a_nSubdivisions]);//To top point
+	}
 
 	// Adding information about color
 	CompleteMesh(a_v3Color);
@@ -299,9 +319,39 @@ void MyMesh::GenerateCylinder(float a_fRadius, float a_fHeight, int a_nSubdivisi
 	Release();
 	Init();
 
-	// Replace this with your code
-	GenerateCube(a_fRadius * 2.0f, a_v3Color);
-	// -------------------------------
+	std::vector<vector3> verticies;//Bottom
+	std::vector<vector3> verticies2;//Top
+	float angle = 0;//Angle being changed
+	float change = (2 * PI) / a_nSubdivisions;
+
+	//Add verticies to vectors
+	for (int i = 0; i < a_nSubdivisions; i++)
+	{
+		verticies.push_back(vector3(
+			cos(angle) * a_fRadius, 
+			sin(angle) * a_fRadius, 
+			a_fHeight/2));//Bottom polygon
+		verticies2.push_back(vector3(
+			cos(angle) * a_fRadius, 
+			sin(angle) * a_fRadius, 
+			-a_fHeight/2));//Top polygon
+		angle += change;
+	}
+	//Add Tris and Quads
+	for (int i = 0; i < a_nSubdivisions; i++)
+	{
+		AddTri(vector3(0.0f, 0.0f, a_fHeight/2), 
+			verticies[i], 
+			verticies[(i + 1) % a_nSubdivisions]);//Top
+		AddTri(verticies2[i], 
+			vector3(0.0f, 0.0f, 
+			-a_fHeight/2), 
+			verticies2[(i + 1) % a_nSubdivisions]);//Bottom
+		AddQuad(verticies2[(i + 1) % a_nSubdivisions], 
+			verticies[(i + 1) % a_nSubdivisions], 
+			verticies2[i], 
+			verticies[i]);//Sides
+	}
 
 	// Adding information about color
 	CompleteMesh(a_v3Color);
@@ -329,9 +379,55 @@ void MyMesh::GenerateTube(float a_fOuterRadius, float a_fInnerRadius, float a_fH
 	Release();
 	Init();
 
-	// Replace this with your code
-	GenerateCube(a_fOuterRadius * 2.0f, a_v3Color);
-	// -------------------------------
+	std::vector<vector3> verticiesBottom;//Bottom outer
+	std::vector<vector3> verticiesBottom2;//Bottom Inner
+	std::vector<vector3> verticiesTop;//Top outer
+	std::vector<vector3> verticiesTop2;//Top inner
+	float angle = 0;//Angle being changed
+	float change = (2 * PI) / a_nSubdivisions;
+
+	//Add verticies to vectors
+	for (int i = 0; i < a_nSubdivisions; i++)
+	{
+		verticiesBottom.push_back(vector3(
+			cos(angle) * a_fOuterRadius, 
+			sin(angle) * a_fOuterRadius, 
+			a_fHeight/2));//Bottom outer polygon 
+		verticiesBottom2.push_back(vector3(
+			cos(angle) * a_fInnerRadius, 
+			sin(angle) * a_fInnerRadius, 
+			a_fHeight/2));//Bottom inner polygon
+		verticiesTop.push_back(vector3(
+			cos(angle) * a_fOuterRadius, 
+			sin(angle) * a_fOuterRadius, 
+			-a_fHeight/2));//Top outer polygon
+		verticiesTop2.push_back(vector3(
+			cos(angle) * a_fInnerRadius, 
+			sin(angle) * a_fInnerRadius, 
+			-a_fHeight/2));//Top inner polygon
+		angle += change;
+	}
+	//Add Quads
+	for (int i = 0; i < a_nSubdivisions; i++)
+	{
+		AddQuad(verticiesBottom2[i], 
+			verticiesBottom[i], 
+			verticiesBottom2[(i + 1) % a_nSubdivisions], 
+			verticiesBottom[(i + 1) % a_nSubdivisions]);//Bottom Faces
+		AddQuad(verticiesTop2[(i + 1) % a_nSubdivisions], 
+			verticiesTop[(i + 1) % a_nSubdivisions], 
+			verticiesTop2[i], 
+			verticiesTop[i]);//Top Faces
+
+		AddQuad(verticiesBottom[i], 
+			verticiesTop[i], 
+			verticiesBottom[(i + 1) % a_nSubdivisions], 
+			verticiesTop[(i + 1) % a_nSubdivisions]);//Outer Sides
+		AddQuad(verticiesBottom2[(i + 1) % a_nSubdivisions], 
+			verticiesTop2[(i + 1) % a_nSubdivisions], 
+			verticiesBottom2[i], 
+			verticiesTop2[i]);//Inner Sides
+	}
 
 	// Adding information about color
 	CompleteMesh(a_v3Color);
@@ -360,10 +456,59 @@ void MyMesh::GenerateTorus(float a_fOuterRadius, float a_fInnerRadius, int a_nSu
 
 	Release();
 	Init();
+	float radiusDifference = a_fOuterRadius - a_fInnerRadius;//Difference between the two radii
+	float middleRadius = (.5f * radiusDifference) + a_fInnerRadius;//Radius of the inside of the torus from the origin
+	float centralRadius = .5f * radiusDifference;//Radius of the inside of the torus cross section
+	float angle = 0;//Angle being changed
+	float changeA = (2 * PI) / a_nSubdivisionsA;//Vertical change
+	float changeB = (2 * PI) / a_nSubdivisionsB;//Horizontal change
 
-	// Replace this with your code
-	GenerateCube(a_fOuterRadius * 2.0f, a_v3Color);
-	// -------------------------------
+	std::vector<vector3> verticiesHorizontal;//Middle of torus
+	std::vector<std::vector<vector3>> verticiesVertical;//Vertical rings around torus
+
+	//Horizontal ring
+	for (int i = 0; i < a_nSubdivisionsB; i++)
+	{
+		verticiesHorizontal.push_back(vector3(
+			cos(angle) * middleRadius, 
+			sin(angle) * middleRadius, 
+			0.0f));//Horizontal Polygon
+		angle += changeB;
+	}
+
+	angle = 0;//Reset angle
+
+	//Adds a new vector to the vector of vectors
+	for (int i = 0; i < a_nSubdivisionsB; i++)
+	{
+		std::vector<vector3> temp;//Holds a vector to be inserted
+		for (int j = 0; j < a_nSubdivisionsA; j++)
+		{
+			//Find the change around each cross section
+			temp.push_back(vector3(
+				(centralRadius * sin((PI / 2.0f) - angle) * cos((float)i * changeB)) + verticiesHorizontal[i].x,
+				(centralRadius * sin((PI / 2.0f) - angle) * sin((float)i * changeB)) + verticiesHorizontal[i].y,
+				(centralRadius * cos((PI / 2.0f) - angle)) + verticiesHorizontal[i].z
+			));
+
+			angle += changeA;
+		}
+		verticiesVertical.push_back(temp);
+		angle = 0;
+	}
+
+	//Add quads
+	for (int i = 0; i < a_nSubdivisionsB; i++)
+	{
+		for (int j = 0; j < a_nSubdivisionsA; j++)
+		{
+			AddQuad(
+				verticiesVertical[(i + 1) % a_nSubdivisionsB][j],
+				verticiesVertical[(i + 1) % a_nSubdivisionsB][(j + 1) % a_nSubdivisionsA],
+				verticiesVertical[i][j],
+				verticiesVertical[i][(j + 1) % a_nSubdivisionsA]);
+		}
+	}
 
 	// Adding information about color
 	CompleteMesh(a_v3Color);
@@ -380,15 +525,54 @@ void MyMesh::GenerateSphere(float a_fRadius, int a_nSubdivisions, vector3 a_v3Co
 		GenerateCube(a_fRadius * 2.0f, a_v3Color);
 		return;
 	}
-	if (a_nSubdivisions > 6)
-		a_nSubdivisions = 6;
+
+	//I changed the values here, as low numbers look weird with my formula
+	if (a_nSubdivisions < 5)
+	{
+		a_nSubdivisions = 5;
+	}
+	if (a_nSubdivisions > 50)
+		a_nSubdivisions = 50;
 
 	Release();
 	Init();
 
-	// Replace this with your code
-	GenerateCube(a_fRadius * 2.0f, a_v3Color);
-	// -------------------------------
+	float changeLong = (2.0f * PI) / (float) (a_nSubdivisions+1);//Change along the longitude
+	//One is added to long to balance out
+	float changeLat = PI / (float) a_nSubdivisions;//Change along the latitute
+
+	std::vector<std::vector<vector3>> verticies;//Holds the verticies
+
+	//Add a vector to the vector of vectors
+	for (int i = 0; i < a_nSubdivisions+1; i++)
+	{
+		std::vector<vector3> temp;//Added to verticies
+		for (int j = 0; j < a_nSubdivisions+1; j++)
+		{
+			//Uses a parametric formula of a sphere to find each point
+			temp.push_back(vector3(
+				cos(changeLong * j) * sin(changeLat * i) * a_fRadius,
+				cos(changeLat * i) * a_fRadius,
+				sin(changeLong * j) * sin(changeLat * i) * a_fRadius
+			));
+		}
+		verticies.push_back(temp);
+	}
+
+	//Add quads
+	for (int i = 0; i < a_nSubdivisions+1; i++)
+	{
+		for (int j = 0; j < a_nSubdivisions+1; j++)
+		{
+			//For the top and bottom, this technically draws a tri
+			//As the the point is repeated
+			AddQuad(
+				verticies[i][j],
+				verticies[i][(j + 1) % (a_nSubdivisions+1)],
+				verticies[(i + 1) % (a_nSubdivisions+1)][j],
+				verticies[(i + 1) % (a_nSubdivisions+1)][(j + 1) % (a_nSubdivisions+1)]);
+		}
+	}
 
 	// Adding information about color
 	CompleteMesh(a_v3Color);
