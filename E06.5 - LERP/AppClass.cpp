@@ -2,7 +2,7 @@
 void Application::InitVariables(void)
 {
 	//Change this to your name and email
-	m_sProgrammer = "Alberto Bobadilla - labigm@rit.edu";
+	m_sProgrammer = "Pierce Habberfield - prh9765@rit.edu";
 
 	//Set the position and target of the camera
 	m_pCameraMngr->SetPositionTargetAndUpward(vector3(5.0f,3.0f,15.0f), ZERO_V3, AXIS_Y);
@@ -53,14 +53,26 @@ void Application::Display(void)
 
 	//calculate the current position
 	vector3 v3CurrentPos;
-	
-
-
-
-
+	float offset = fTimer - (int)fTimer;//Offset, equals the decimal of the timer (percentage_
+	int i = (int)fTimer;//Control to see what point to go to next
+	//Keep i within range
+	if (i > m_stopsList.size()-1)
+	{
+		i = m_stopsList.size()-1;
+	}
 	//your code goes here
-	v3CurrentPos = vector3(0.0f, 0.0f, 0.0f);
+	//v3CurrentPos = vector3(0.0f, 0.0f, 0.0f);
 	//-------------------
+	//If the model is not at the final position
+	if (i < m_stopsList.size()-1)
+	{
+		v3CurrentPos += glm::lerp(m_stopsList[i], m_stopsList[i+1], offset);
+	}
+	else
+	{
+		v3CurrentPos = m_stopsList[i];
+	}
+	
 	
 
 
