@@ -285,7 +285,7 @@ void MyMesh::GenerateCone(float a_fRadius, float a_fHeight, int a_nSubdivisions,
 		verticies.push_back(vector3(
 			cos(angle) * a_fRadius, 
 			sin(angle) * a_fRadius, 
-			a_fHeight/2));
+			0));
 		angle += change;//Increment angle
 	}
 	//Add the Tris
