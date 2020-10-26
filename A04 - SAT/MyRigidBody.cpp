@@ -6,7 +6,7 @@ void MyRigidBody::Init(void)
 	m_pMeshMngr = MeshManager::GetInstance();
 	m_bVisibleBS = false;
 	m_bVisibleOBB = true;
-	m_bVisibleARBB = false;
+	m_bVisibleARBB = true;
 
 	m_fRadius = 0.0f;
 
@@ -24,6 +24,7 @@ void MyRigidBody::Init(void)
 	m_v3ARBBSize = ZERO_V3;
 
 	m_m4ToWorld = IDENTITY_M4;
+
 }
 void MyRigidBody::Swap(MyRigidBody& a_pOther)
 {
@@ -89,12 +90,12 @@ void MyRigidBody::SetModelMatrix(matrix4 a_m4ModelMatrix)
 	vector3 v3Corner[8];
 	//Back square
 	v3Corner[0] = m_v3MinL;
-	v3Corner[1] = vector3(m_v3MaxL.x, m_v3MinL.y, m_v3MinL.z);
-	v3Corner[2] = vector3(m_v3MinL.x, m_v3MaxL.y, m_v3MinL.z);
+	v3Corner[1] = vector3(m_v3MaxL.x, m_v3MinL.y, m_v3MinL.z);//X
+	v3Corner[2] = vector3(m_v3MinL.x, m_v3MaxL.y, m_v3MinL.z);//Z
 	v3Corner[3] = vector3(m_v3MaxL.x, m_v3MaxL.y, m_v3MinL.z);
 
 	//Front square
-	v3Corner[4] = vector3(m_v3MinL.x, m_v3MinL.y, m_v3MaxL.z);
+	v3Corner[4] = vector3(m_v3MinL.x, m_v3MinL.y, m_v3MaxL.z);//Y
 	v3Corner[5] = vector3(m_v3MaxL.x, m_v3MinL.y, m_v3MaxL.z);
 	v3Corner[6] = vector3(m_v3MinL.x, m_v3MaxL.y, m_v3MaxL.z);
 	v3Corner[7] = m_v3MaxL;
@@ -228,18 +229,19 @@ bool MyRigidBody::IsColliding(MyRigidBody* const a_pOther)
 {
 	//check if spheres are colliding as pre-test
 	bool bColliding = (glm::distance(GetCenterGlobal(), a_pOther->GetCenterGlobal()) < m_fRadius + a_pOther->m_fRadius);
-	
-	//if they are colliding check the SAT
+
 	if (bColliding)
 	{
-		if(SAT(a_pOther) != eSATResults::SAT_NONE)
-			bColliding = false;// reset to false
+		if (SAT(a_pOther) != eSATResults::SAT_NONE)
+		{
+			bColliding = false;
+		}
 	}
-
 	if (bColliding) //they are colliding
 	{
-		this->AddCollisionWith(a_pOther);
-		a_pOther->AddCollisionWith(this);
+			this->AddCollisionWith(a_pOther);
+			a_pOther->AddCollisionWith(this);
+
 	}
 	else //they are not colliding
 	{
@@ -286,6 +288,88 @@ uint MyRigidBody::SAT(MyRigidBody* const a_pOther)
 	Simplex that might help you [eSATResults] feel free to use it.
 	(eSATResults::SAT_NONE has a value of 0)
 	*/
+
+	float EPSILON = .000001f;//Used to prevent null errors
+	float ra, rb;//Radius of a and b
+	vector3 a[3], b[3], ae, be;//u vectors and the e vectors
+	//U is coordinate vectors, e is halfwidth
+	matrix3 R, AbsR;//Rotation matricies
+
+	ae = m_v3HalfWidth;
+	be = a_pOther->m_v3HalfWidth;
+	for (int i = 0; i < 3; i++)
+	{
+		a[i] = vector3(m_m4ToWorld[i]);
+		b[i] = vector3(a_pOther->m_m4ToWorld[i]);
+	}
+
+	// Rotation matrix
+	for (int i = 0; i < 3; i++)
+		for (int j = 0; j < 3; j++)
+			R[i][j] = glm::dot(a[i], b[j]);
+
+	// translation vector
+	vector3 t = a_pOther->GetCenterGlobal() - GetCenterGlobal();
+	// Move into proper coordinate plane
+	t = vector3(glm::dot(t, a[0]), glm::dot(t, a[1]), glm::dot(t, a[2]));
+
+	//Absolute Value with epislon to prevent null errors
+	for (int i = 0; i < 3; i++)
+		for (int j = 0; j < 3; j++)
+			AbsR[i][j] = glm::abs(R[i][j]) + EPSILON;
+	
+
+	//Note: In all cases, return 1 if there is a plane that divides them
+	//Check axes of object a
+	for (int i = 0; i < 3; i++) {
+		ra = ae[i];
+		rb = be[0] * AbsR[i][0] + be[1] * AbsR[i][1] + be[2] * AbsR[i][2];
+		if (glm::abs(t[i]) > ra + rb) return 1;
+	}
+	// Check axes of object b
+	for (int i = 0; i < 3; i++) {
+		ra = ae[0] * AbsR[0][i] + ae[1] * AbsR[1][i] + ae[2] * AbsR[2][i];
+		rb = be[i];
+		if (glm::abs(t[0] * R[0][i] + t[1] * R[1][i] + t[2] * R[2][i]) > ra + rb) return 1;
+	}
+
+	//Cross tests
+	//A0 x B0
+	ra = ae[1] * AbsR[2][0] + ae[2] * AbsR[1][0];
+	rb = be[1] * AbsR[0][2] + be[2] * AbsR[0][1];
+	if (glm::abs(t[2] * R[1][0] - t[1] * R[2][0]) > ra + rb) return 1;
+	//A0 x B1
+	ra = ae[1] * AbsR[2][1] + ae[2] * AbsR[1][1];
+	rb = be[0] * AbsR[0][2] + be[2] * AbsR[0][0];
+	if (glm::abs(t[2] * R[1][1] - t[1] * R[2][1]) > ra + rb) return 1;
+	//A0 x B2
+	ra = ae[1] * AbsR[2][2] + ae[2] * AbsR[1][2];
+	rb = be[0] * AbsR[0][1] + be[1] * AbsR[0][0];
+	if (glm::abs(t[2] * R[1][2] - t[1] * R[2][2]) > ra + rb) return 1;
+	//A1 x B0
+	ra = ae[0] * AbsR[2][0] + ae[2] * AbsR[0][0];
+	rb = be[1] * AbsR[1][2] + be[2] * AbsR[1][1];
+	if (glm::abs(t[0] * R[2][0] - t[2] * R[0][0]) > ra + rb) return 1;
+	//A1 x B1
+	ra = ae[0] * AbsR[2][1] + ae[2] * AbsR[0][1];
+	rb = be[0] * AbsR[1][2] + be[2] * AbsR[1][0];
+	if (glm::abs(t[0] * R[2][1] - t[2] * R[0][1]) > ra + rb) return 1;
+	//A1 x B2
+	ra = ae[0] * AbsR[2][2] + ae[2] * AbsR[0][2];
+	rb = be[0] * AbsR[1][1] + be[1] * AbsR[1][0];
+	if (glm::abs(t[0] * R[2][2] - t[2] * R[0][2]) > ra + rb) return 1;
+	//A2 x B0
+	ra = ae[0] * AbsR[1][0] + ae[1] * AbsR[0][0];
+	rb = be[1] * AbsR[2][2] + be[2] * AbsR[2][1];
+	if (glm::abs(t[1] * R[0][0] - t[0] * R[1][0]) > ra + rb) return 1;
+	//A2 x B1
+	ra = ae[0] * AbsR[1][1] + ae[1] * AbsR[0][1];
+	rb = be[0] * AbsR[2][2] + be[2] * AbsR[2][0];
+	if (glm::abs(t[1] * R[0][1] - t[0] * R[1][1]) > ra + rb) return 1;
+	//A2 x B2
+	ra = ae[0] * AbsR[1][2] + ae[1] * AbsR[0][2];
+	rb = be[0] * AbsR[2][1] + be[1] * AbsR[2][0];
+	if (glm::abs(t[1] * R[0][2] - t[0] * R[1][2]) > ra + rb) return 1;
 
 	//there is no axis test that separates this two objects
 	return eSATResults::SAT_NONE;
