@@ -1,0 +1,479 @@
+﻿  AppClass.cpp
+  AppClassControls.cpp
+C:\Users\pierc\source\repos\IGME309-2201\A05 - Octree\AppClassControls.cpp(116,19): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\pierc\source\repos\IGME309-2201\A05 - Octree\AppClassControls.cpp(121,19): warning C4018: '>=': signed/unsigned mismatch
+  AppClassGUI.cpp
+  AppClassMain.cpp
+  Main.cpp
+  MyOctant.cpp
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\system\Definitions.h(189,23): warning C4251: 'Simplex::MeshOptions::m_m4Transform': struct 'glm::tmat4x4<float,glm::packed_highp>' needs to have dll-interface to be used by clients of struct 'Simplex::MeshOptions'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_mat.hpp(304): message : see declaration of 'glm::tmat4x4<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\Folder.h(20,17): warning C4251: 'Simplex::Folder::m_sRoot': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Folder'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\Folder.h(21,17): warning C4251: 'Simplex::Folder::m_sData': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Folder'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\Folder.h(22,16): warning C4251: 'Simplex::Folder::m_sBTO': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Folder'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\Folder.h(23,16): warning C4251: 'Simplex::Folder::m_sFBX': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Folder'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\Folder.h(24,16): warning C4251: 'Simplex::Folder::m_sOBJ': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Folder'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\Folder.h(25,16): warning C4251: 'Simplex::Folder::m_sLVL': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Folder'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\Folder.h(26,18): warning C4251: 'Simplex::Folder::m_sAudio': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Folder'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\Folder.h(27,21): warning C4251: 'Simplex::Folder::m_sTextures': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Folder'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\Folder.h(28,20): warning C4251: 'Simplex::Folder::m_sShaders': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Folder'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\Folder.h(29,18): warning C4251: 'Simplex::Folder::m_sAddOn': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Folder'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\SystemSingleton.h(32,23): warning C4251: 'Simplex::SystemSingleton::m_sWindowName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::SystemSingleton'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\SystemSingleton.h(33,20): warning C4251: 'Simplex::SystemSingleton::m_sAppName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::SystemSingleton'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\SystemSingleton.h(35,32): warning C4251: 'Simplex::SystemSingleton::m_clockList': class 'std::vector<DWORD,std::allocator<DWORD>>' needs to have dll-interface to be used by clients of class 'Simplex::SystemSingleton'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\SystemSingleton.h(35): message : see declaration of 'std::vector<DWORD,std::allocator<DWORD>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\SystemSingleton.h(36,32): warning C4251: 'Simplex::SystemSingleton::m_deltaList': class 'std::vector<DWORD,std::allocator<DWORD>>' needs to have dll-interface to be used by clients of class 'Simplex::SystemSingleton'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\SystemSingleton.h(35): message : see declaration of 'std::vector<DWORD,std::allocator<DWORD>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\SystemSingleton.h(37,36): warning C4251: 'Simplex::SystemSingleton::m_countdownList': class 'std::vector<float,std::allocator<float>>' needs to have dll-interface to be used by clients of class 'Simplex::SystemSingleton'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\SystemSingleton.h(37): message : see declaration of 'std::vector<float,std::allocator<float>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\system\Shader.h(16,24): warning C4251: 'Simplex::Shader::m_sProgramName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Shader'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\system\Shader.h(17,29): warning C4251: 'Simplex::Shader::m_sVertexShaderName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Shader'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\system\Shader.h(18,31): warning C4251: 'Simplex::Shader::m_sFragmentShaderName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Shader'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Shader,std::allocator<Simplex::Shader>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Shader>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Shader,std::allocator<Simplex::Shader>>'
+          with
+          [
+              _Ty=Simplex::Shader
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Shader>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Shader
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\system\Shader.h(98): message : see reference to class template instantiation 'std::vector<Simplex::Shader,std::allocator<Simplex::Shader>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Shader *,std::allocator<Simplex::Shader *>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Shader *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Shader *,std::allocator<Simplex::Shader *>>'
+          with
+          [
+              _Ty=Simplex::Shader *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Shader *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Shader *
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\system\Shader.h(99): message : see reference to class template instantiation 'std::vector<Simplex::Shader *,std::allocator<Simplex::Shader *>>' being compiled
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\ShaderManager.h(24,29): warning C4251: 'Simplex::ShaderManager::m_map': class 'std::map<Simplex::String,int,std::less<Simplex::String>,std::allocator<std::pair<const Simplex::String,int>>>' needs to have dll-interface to be used by clients of class 'Simplex::ShaderManager'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\ShaderManager.h(24): message : see declaration of 'std::map<Simplex::String,int,std::less<Simplex::String>,std::allocator<std::pair<const Simplex::String,int>>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\system\FileReader.h(18,25): warning C4251: 'Simplex::FileReader::m_iStream': class 'std::basic_ifstream<char,std::char_traits<char>>' needs to have dll-interface to be used by clients of class 'Simplex::FileReader'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\iosfwd(224): message : see declaration of 'std::basic_ifstream<char,std::char_traits<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\system\FileReader.h(19,25): warning C4251: 'Simplex::FileReader::m_oStream': class 'std::basic_ofstream<char,std::char_traits<char>>' needs to have dll-interface to be used by clients of class 'Simplex::FileReader'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\iosfwd(225): message : see declaration of 'std::basic_ofstream<char,std::char_traits<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\system\FileReader.h(22,17): warning C4251: 'Simplex::FileReader::m_sLine': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::FileReader'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\system\FileReader.h(23,22): warning C4251: 'Simplex::FileReader::m_sFirstWord': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::FileReader'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::FileReader,std::allocator<Simplex::FileReader>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::FileReader>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::FileReader,std::allocator<Simplex::FileReader>>'
+          with
+          [
+              _Ty=Simplex::FileReader
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::FileReader>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::FileReader
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\system\FileReader.h(260): message : see reference to class template instantiation 'std::vector<Simplex::FileReader,std::allocator<Simplex::FileReader>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::FileReader *,std::allocator<Simplex::FileReader *>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::FileReader *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::FileReader *,std::allocator<Simplex::FileReader *>>'
+          with
+          [
+              _Ty=Simplex::FileReader *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::FileReader *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::FileReader *
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\system\FileReader.h(261): message : see reference to class template instantiation 'std::vector<Simplex::FileReader *,std::allocator<Simplex::FileReader *>>' being compiled
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\materials\Texture.h(19,17): warning C4251: 'Simplex::Texture::m_sName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Texture'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\materials\Texture.h(20,21): warning C4251: 'Simplex::Texture::m_sFileName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Texture'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\materials\Texture.h(21,26): warning C4251: 'Simplex::Texture::m_sAbsoluteRoute': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Texture'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Texture,std::allocator<Simplex::Texture>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Texture>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Texture,std::allocator<Simplex::Texture>>'
+          with
+          [
+              _Ty=Simplex::Texture
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Texture>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Texture
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\materials\Texture.h(102): message : see reference to class template instantiation 'std::vector<Simplex::Texture,std::allocator<Simplex::Texture>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Texture *,std::allocator<Simplex::Texture *>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Texture *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Texture *,std::allocator<Simplex::Texture *>>'
+          with
+          [
+              _Ty=Simplex::Texture *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Texture *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Texture *
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\materials\Texture.h(103): message : see reference to class template instantiation 'std::vector<Simplex::Texture *,std::allocator<Simplex::Texture *>>' being compiled
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\materials\TextureManager.h(19,28): warning C4251: 'Simplex::TextureManager::m_map': class 'std::map<Simplex::String,int,std::less<Simplex::String>,std::allocator<std::pair<const Simplex::String,int>>>' needs to have dll-interface to be used by clients of class 'Simplex::TextureManager'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\ShaderManager.h(24): message : see declaration of 'std::map<Simplex::String,int,std::less<Simplex::String>,std::allocator<std::pair<const Simplex::String,int>>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\materials\Material.h(17,17): warning C4251: 'Simplex::Material::m_sName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Material'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\materials\Material.h(26,15): warning C4251: 'Simplex::Material::m_vKd': struct 'glm::tvec3<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Material'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(243): message : see declaration of 'glm::tvec3<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\materials\Material.h(28,23): warning C4251: 'Simplex::Material::m_sMapDiffuse': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Material'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\materials\Material.h(29,22): warning C4251: 'Simplex::Material::m_sMapNormal': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Material'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\materials\Material.h(30,24): warning C4251: 'Simplex::Material::m_sMapSpecular': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Material'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Materials\MaterialManager.h(24,28): warning C4251: 'Simplex::MaterialManager::m_map': class 'std::map<Simplex::String,int,std::less<Simplex::String>,std::allocator<std::pair<const Simplex::String,int>>>' needs to have dll-interface to be used by clients of class 'Simplex::MaterialManager'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\ShaderManager.h(24): message : see declaration of 'std::map<Simplex::String,int,std::less<Simplex::String>,std::allocator<std::pair<const Simplex::String,int>>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Materials\MaterialManager.h(29,39): warning C4251: 'Simplex::MaterialManager::m_materialList': class 'std::vector<Simplex::Material *,std::allocator<Simplex::Material *>>' needs to have dll-interface to be used by clients of class 'Simplex::MaterialManager'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Materials\MaterialManager.h(29): message : see declaration of 'std::vector<Simplex::Material *,std::allocator<Simplex::Material *>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\light\Light.h(17,22): warning C4251: 'Simplex::Light::m_v4Position': struct 'glm::tvec3<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Light'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(243): message : see declaration of 'glm::tvec3<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\light\Light.h(18,18): warning C4251: 'Simplex::Light::m_vColor': struct 'glm::tvec3<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Light'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(243): message : see declaration of 'glm::tvec3<float,glm::packed_highp>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Light,std::allocator<Simplex::Light>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Light>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Light,std::allocator<Simplex::Light>>'
+          with
+          [
+              _Ty=Simplex::Light
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Light>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Light
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\light\Light.h(135): message : see reference to class template instantiation 'std::vector<Simplex::Light,std::allocator<Simplex::Light>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Light *,std::allocator<Simplex::Light *>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Light *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Light *,std::allocator<Simplex::Light *>>'
+          with
+          [
+              _Ty=Simplex::Light *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Light *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Light *
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\light\Light.h(136): message : see reference to class template instantiation 'std::vector<Simplex::Light *,std::allocator<Simplex::Light *>>' being compiled
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(25,17): warning C4251: 'Simplex::Mesh::m_sName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Mesh'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(40,19): warning C4251: 'Simplex::Mesh::m_v3Tint': struct 'glm::tvec3<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Mesh'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(243): message : see declaration of 'glm::tvec3<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(41,24): warning C4251: 'Simplex::Mesh::m_v3Wireframe': struct 'glm::tvec3<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Mesh'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(243): message : see declaration of 'glm::tvec3<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(43,32): warning C4251: 'Simplex::Mesh::m_lVertex': class 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>' needs to have dll-interface to be used by clients of class 'Simplex::Mesh'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(43): message : see declaration of 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(44,35): warning C4251: 'Simplex::Mesh::m_lVertexPos': class 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>' needs to have dll-interface to be used by clients of class 'Simplex::Mesh'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(43): message : see declaration of 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(45,35): warning C4251: 'Simplex::Mesh::m_lVertexCol': class 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>' needs to have dll-interface to be used by clients of class 'Simplex::Mesh'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(43): message : see declaration of 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(46,35): warning C4251: 'Simplex::Mesh::m_lVertexNor': class 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>' needs to have dll-interface to be used by clients of class 'Simplex::Mesh'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(43): message : see declaration of 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(47,35): warning C4251: 'Simplex::Mesh::m_lVertexTan': class 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>' needs to have dll-interface to be used by clients of class 'Simplex::Mesh'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(43): message : see declaration of 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(48,35): warning C4251: 'Simplex::Mesh::m_lVertexBin': class 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>' needs to have dll-interface to be used by clients of class 'Simplex::Mesh'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(43): message : see declaration of 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(49,34): warning C4251: 'Simplex::Mesh::m_lVertexUV': class 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>' needs to have dll-interface to be used by clients of class 'Simplex::Mesh'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(43): message : see declaration of 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Mesh *,std::allocator<Simplex::Mesh *>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Mesh *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Mesh *,std::allocator<Simplex::Mesh *>>'
+          with
+          [
+              _Ty=Simplex::Mesh *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Mesh *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Mesh *
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(684): message : see reference to class template instantiation 'std::vector<Simplex::Mesh *,std::allocator<Simplex::Mesh *>>' being compiled
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Camera\Camera.h(21,22): warning C4251: 'Simplex::Camera::m_v2NearFar': struct 'glm::tvec2<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Camera'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(133): message : see declaration of 'glm::tvec2<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Camera\Camera.h(23,23): warning C4251: 'Simplex::Camera::m_v3Position': struct 'glm::tvec3<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Camera'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(243): message : see declaration of 'glm::tvec3<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Camera\Camera.h(24,21): warning C4251: 'Simplex::Camera::m_v3Target': struct 'glm::tvec3<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Camera'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(243): message : see declaration of 'glm::tvec3<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Camera\Camera.h(25,20): warning C4251: 'Simplex::Camera::m_v3Above': struct 'glm::tvec3<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Camera'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(243): message : see declaration of 'glm::tvec3<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Camera\Camera.h(27,22): warning C4251: 'Simplex::Camera::m_v3Forward': struct 'glm::tvec3<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Camera'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(243): message : see declaration of 'glm::tvec3<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Camera\Camera.h(28,21): warning C4251: 'Simplex::Camera::m_v3Upward': struct 'glm::tvec3<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Camera'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(243): message : see declaration of 'glm::tvec3<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Camera\Camera.h(29,24): warning C4251: 'Simplex::Camera::m_v3Rightward': struct 'glm::tvec3<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Camera'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(243): message : see declaration of 'glm::tvec3<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Camera\Camera.h(31,27): warning C4251: 'Simplex::Camera::m_v3PitchYawRoll': struct 'glm::tvec3<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Camera'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(243): message : see declaration of 'glm::tvec3<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Camera\Camera.h(33,25): warning C4251: 'Simplex::Camera::m_m4Projection': struct 'glm::tmat4x4<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Camera'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_mat.hpp(304): message : see declaration of 'glm::tmat4x4<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Camera\Camera.h(34,19): warning C4251: 'Simplex::Camera::m_m4View': struct 'glm::tmat4x4<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Camera'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_mat.hpp(304): message : see declaration of 'glm::tmat4x4<float,glm::packed_highp>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Camera,std::allocator<Simplex::Camera>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Camera>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Camera,std::allocator<Simplex::Camera>>'
+          with
+          [
+              _Ty=Simplex::Camera
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Camera>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Camera
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Camera\Camera.h(325): message : see reference to class template instantiation 'std::vector<Simplex::Camera,std::allocator<Simplex::Camera>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Camera *,std::allocator<Simplex::Camera *>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Camera *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Camera *,std::allocator<Simplex::Camera *>>'
+          with
+          [
+              _Ty=Simplex::Camera *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Camera *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Camera *
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Camera\Camera.h(326): message : see reference to class template instantiation 'std::vector<Simplex::Camera *,std::allocator<Simplex::Camera *>>' being compiled
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Text.h(32,32): warning C4251: 'Simplex::Text::m_lVertex': class 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>' needs to have dll-interface to be used by clients of class 'Simplex::Text'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(43): message : see declaration of 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Text.h(34,35): warning C4251: 'Simplex::Text::m_lVertexPos': class 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>' needs to have dll-interface to be used by clients of class 'Simplex::Text'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(43): message : see declaration of 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Text.h(35,35): warning C4251: 'Simplex::Text::m_lVertexCol': class 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>' needs to have dll-interface to be used by clients of class 'Simplex::Text'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(43): message : see declaration of 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Text.h(36,34): warning C4251: 'Simplex::Text::m_lVertexUV': class 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>' needs to have dll-interface to be used by clients of class 'Simplex::Text'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(43): message : see declaration of 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Text.h(38,19): warning C4251: 'Simplex::Text::m_v3Head': struct 'glm::tvec3<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Text'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(243): message : see declaration of 'glm::tvec3<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Text.h(43,17): warning C4251: 'Simplex::Text::m_sText': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Text'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Text.h(44,21): warning C4251: 'Simplex::Text::m_sTextPrev': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Text'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Text.h(45,16): warning C4251: 'Simplex::Text::m_sFont': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Text'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Text.h(46,31): warning C4251: 'Simplex::Text::m_lColor': class 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>' needs to have dll-interface to be used by clients of class 'Simplex::Text'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(43): message : see declaration of 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Text.h(47,35): warning C4251: 'Simplex::Text::m_lColorPrev': class 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>' needs to have dll-interface to be used by clients of class 'Simplex::Text'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Mesh.h(43): message : see declaration of 'std::vector<Simplex::vector3,std::allocator<Simplex::vector3>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\MeshManager.h(19,36): warning C4251: 'Simplex::MeshManager::m_meshNames': class 'std::map<Simplex::String,Simplex::uint,std::less<Simplex::String>,std::allocator<std::pair<const Simplex::String,Simplex::uint>>>' needs to have dll-interface to be used by clients of class 'Simplex::MeshManager'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\MeshManager.h(19): message : see declaration of 'std::map<Simplex::String,Simplex::uint,std::less<Simplex::String>,std::allocator<std::pair<const Simplex::String,Simplex::uint>>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\MeshManager.h(20,60): warning C4251: 'Simplex::MeshManager::m_renderOptionsList': class 'std::vector<std::vector<Simplex::MeshOptions,std::allocator<Simplex::MeshOptions>> *,std::allocator<std::vector<Simplex::MeshOptions,std::allocator<Simplex::MeshOptions>> *>>' needs to have dll-interface to be used by clients of class 'Simplex::MeshManager'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\MeshManager.h(20): message : see declaration of 'std::vector<std::vector<Simplex::MeshOptions,std::allocator<Simplex::MeshOptions>> *,std::allocator<std::vector<Simplex::MeshOptions,std::allocator<Simplex::MeshOptions>> *>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Animation\Frame.h(19,26): warning C4251: 'Simplex::Frame::m_v3Translation': struct 'glm::tvec3<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Frame'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(243): message : see declaration of 'glm::tvec3<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Animation\Frame.h(20,23): warning C4251: 'Simplex::Frame::m_v3Rotation': struct 'glm::tvec3<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Frame'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(243): message : see declaration of 'glm::tvec3<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Animation\Frame.h(21,20): warning C4251: 'Simplex::Frame::m_v3Scale': struct 'glm::tvec3<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Frame'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(243): message : see declaration of 'glm::tvec3<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Animation\Frame.h(22,29): warning C4251: 'Simplex::Frame::m_m4Transformation': struct 'glm::tmat4x4<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Frame'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_mat.hpp(304): message : see declaration of 'glm::tmat4x4<float,glm::packed_highp>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Frame,std::allocator<Simplex::Frame>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Frame>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Frame,std::allocator<Simplex::Frame>>'
+          with
+          [
+              _Ty=Simplex::Frame
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Frame>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Frame
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Animation\Frame.h(264): message : see reference to class template instantiation 'std::vector<Simplex::Frame,std::allocator<Simplex::Frame>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Frame *,std::allocator<Simplex::Frame *>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Frame *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Frame *,std::allocator<Simplex::Frame *>>'
+          with
+          [
+              _Ty=Simplex::Frame *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Frame *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Frame *
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Animation\Frame.h(265): message : see reference to class template instantiation 'std::vector<Simplex::Frame *,std::allocator<Simplex::Frame *>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Animation,std::allocator<Simplex::Animation>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Animation>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Animation,std::allocator<Simplex::Animation>>'
+          with
+          [
+              _Ty=Simplex::Animation
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Animation>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Animation
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Animation\Animation.h(99): message : see reference to class template instantiation 'std::vector<Simplex::Animation,std::allocator<Simplex::Animation>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Animation *,std::allocator<Simplex::Animation *>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Animation *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Animation *,std::allocator<Simplex::Animation *>>'
+          with
+          [
+              _Ty=Simplex::Animation *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Animation *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Animation *
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Animation\Animation.h(100): message : see reference to class template instantiation 'std::vector<Simplex::Animation *,std::allocator<Simplex::Animation *>>' being compiled
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Group.h(20,17): warning C4251: 'Simplex::Group::m_sName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Group'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Group.h(21,19): warning C4251: 'Simplex::Group::m_sParent': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Group'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Group.h(26,19): warning C4251: 'Simplex::Group::m_v3Pivot': struct 'glm::tvec3<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Group'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_vec.hpp(243): message : see declaration of 'glm::tvec3<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Group.h(30,30): warning C4251: 'Simplex::Group::m_meshList': class 'std::vector<std::seed_seq::result_type,std::allocator<std::seed_seq::result_type>>' needs to have dll-interface to be used by clients of class 'Simplex::Group'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\random(257): message : see declaration of 'std::vector<std::seed_seq::result_type,std::allocator<std::seed_seq::result_type>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Group.h(31,60): warning C4251: 'Simplex::Group::m_renderOptionsList': class 'std::vector<std::vector<Simplex::MeshOptions,std::allocator<Simplex::MeshOptions>> *,std::allocator<std::vector<Simplex::MeshOptions,std::allocator<Simplex::MeshOptions>> *>>' needs to have dll-interface to be used by clients of class 'Simplex::Group'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\MeshManager.h(20): message : see declaration of 'std::vector<std::vector<Simplex::MeshOptions,std::allocator<Simplex::MeshOptions>> *,std::allocator<std::vector<Simplex::MeshOptions,std::allocator<Simplex::MeshOptions>> *>>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Group,std::allocator<Simplex::Group>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Group>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Group,std::allocator<Simplex::Group>>'
+          with
+          [
+              _Ty=Simplex::Group
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Group>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Group
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Group.h(348): message : see reference to class template instantiation 'std::vector<Simplex::Group,std::allocator<Simplex::Group>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Group *,std::allocator<Simplex::Group *>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Group *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Group *,std::allocator<Simplex::Group *>>'
+          with
+          [
+              _Ty=Simplex::Group *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Group *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Group *
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Group.h(349): message : see reference to class template instantiation 'std::vector<Simplex::Group *,std::allocator<Simplex::Group *>>' being compiled
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Animation\Sequence.h(17,17): warning C4251: 'Simplex::Sequence::m_sName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Sequence'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Sequence,std::allocator<Simplex::Sequence>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Sequence>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Sequence,std::allocator<Simplex::Sequence>>'
+          with
+          [
+              _Ty=Simplex::Sequence
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Sequence>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Sequence
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Animation\Sequence.h(167): message : see reference to class template instantiation 'std::vector<Simplex::Sequence,std::allocator<Simplex::Sequence>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Sequence *,std::allocator<Simplex::Sequence *>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Sequence *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Sequence *,std::allocator<Simplex::Sequence *>>'
+          with
+          [
+              _Ty=Simplex::Sequence *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Sequence *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Sequence *
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Animation\Sequence.h(168): message : see reference to class template instantiation 'std::vector<Simplex::Sequence *,std::allocator<Simplex::Sequence *>>' being compiled
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Animation\State.h(18,16): warning C4251: 'Simplex::State::m_sName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::State'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Animation\State.h(25,25): warning C4251: 'Simplex::State::m_sSequenceName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::State'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Animation\State.h(28,32): warning C4251: 'Simplex::State::m_exitList': class 'std::vector<Simplex::State *,std::allocator<Simplex::State *>>' needs to have dll-interface to be used by clients of class 'Simplex::State'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Animation\State.h(28): message : see declaration of 'std::vector<Simplex::State *,std::allocator<Simplex::State *>>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::State,std::allocator<Simplex::State>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::State>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::State,std::allocator<Simplex::State>>'
+          with
+          [
+              _Ty=Simplex::State
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::State>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::State
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Animation\State.h(192): message : see reference to class template instantiation 'std::vector<Simplex::State,std::allocator<Simplex::State>>' being compiled
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Animation\State.h(193,62): warning C4251: 'std::vector<Simplex::State *,std::allocator<Simplex::State *>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::State *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::State *,std::allocator<Simplex::State *>>'
+          with
+          [
+              _Ty=Simplex::State *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::State *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::State *
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Model.h(29,21): warning C4251: 'Simplex::Model::m_sFileName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Model'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Model.h(31,21): warning C4251: 'Simplex::Model::m_m4ToWorld': struct 'glm::tmat4x4<float,glm::packed_highp>' needs to have dll-interface to be used by clients of class 'Simplex::Model'
+C:\Users\pierc\source\repos\IGME309-2201\include\glm\detail\type_mat.hpp(304): message : see declaration of 'glm::tmat4x4<float,glm::packed_highp>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Model.h(37,25): warning C4251: 'Simplex::Model::m_sSequenceLast': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Simplex::Model'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Model.h(39,29): warning C4251: 'Simplex::Model::m_groupSet': class 'std::set<Simplex::Group *,std::less<Simplex::Group *>,std::allocator<Simplex::Group *>>' needs to have dll-interface to be used by clients of class 'Simplex::Model'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Model.h(39): message : see declaration of 'std::set<Simplex::Group *,std::less<Simplex::Group *>,std::allocator<Simplex::Group *>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Model.h(40,37): warning C4251: 'Simplex::Model::m_groupMap': class 'std::map<Simplex::String,Simplex::Group *,std::less<Simplex::String>,std::allocator<std::pair<const Simplex::String,Simplex::Group *>>>' needs to have dll-interface to be used by clients of class 'Simplex::Model'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Model.h(40): message : see declaration of 'std::map<Simplex::String,Simplex::Group *,std::less<Simplex::String>,std::allocator<std::pair<const Simplex::String,Simplex::Group *>>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Model.h(42,35): warning C4251: 'Simplex::Model::m_sequenceSet': class 'std::set<Simplex::Sequence *,std::less<Simplex::Sequence *>,std::allocator<Simplex::Sequence *>>' needs to have dll-interface to be used by clients of class 'Simplex::Model'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Model.h(42): message : see declaration of 'std::set<Simplex::Sequence *,std::less<Simplex::Sequence *>,std::allocator<Simplex::Sequence *>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Model.h(43,43): warning C4251: 'Simplex::Model::m_sequenceMap': class 'std::map<Simplex::String,Simplex::Sequence *,std::less<Simplex::String>,std::allocator<std::pair<const Simplex::String,Simplex::Sequence *>>>' needs to have dll-interface to be used by clients of class 'Simplex::Model'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Model.h(43): message : see declaration of 'std::map<Simplex::String,Simplex::Sequence *,std::less<Simplex::String>,std::allocator<std::pair<const Simplex::String,Simplex::Sequence *>>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Model.h(46,34): warning C4251: 'Simplex::Model::m_stateMap': class 'std::map<Simplex::String,int,std::less<Simplex::String>,std::allocator<std::pair<const Simplex::String,int>>>' needs to have dll-interface to be used by clients of class 'Simplex::Model'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\System\ShaderManager.h(24): message : see declaration of 'std::map<Simplex::String,int,std::less<Simplex::String>,std::allocator<std::pair<const Simplex::String,int>>>'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Model.h(59,44): warning C4251: 'Simplex::Model::m_modelMap': class 'std::map<Simplex::String,Simplex::Model *,std::less<Simplex::String>,std::allocator<std::pair<const Simplex::String,Simplex::Model *>>>' needs to have dll-interface to be used by clients of class 'Simplex::Model'
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Model.h(59): message : see declaration of 'std::map<Simplex::String,Simplex::Model *,std::less<Simplex::String>,std::allocator<std::pair<const Simplex::String,Simplex::Model *>>>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Model,std::allocator<Simplex::Model>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Model>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Model,std::allocator<Simplex::Model>>'
+          with
+          [
+              _Ty=Simplex::Model
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Model>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Model
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Model.h(479): message : see reference to class template instantiation 'std::vector<Simplex::Model,std::allocator<Simplex::Model>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::Model *,std::allocator<Simplex::Model *>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::Model *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::Model *,std::allocator<Simplex::Model *>>'
+          with
+          [
+              _Ty=Simplex::Model *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::Model *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::Model *
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Mesh\Model.h(480): message : see reference to class template instantiation 'std::vector<Simplex::Model *,std::allocator<Simplex::Model *>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<Simplex::MyEntity *,std::allocator<Simplex::MyEntity *>>::_Mypair': class 'std::_Compressed_pair<std::allocator<Simplex::MyEntity *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<Simplex::MyEntity *,std::allocator<Simplex::MyEntity *>>'
+          with
+          [
+              _Ty=Simplex::MyEntity *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<Simplex::MyEntity *>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=Simplex::MyEntity *
+          ]
+C:\Users\pierc\source\repos\IGME309-2201\A05 - Octree\MyEntity.h(191): message : see reference to class template instantiation 'std::vector<Simplex::MyEntity *,std::allocator<Simplex::MyEntity *>>' being compiled
+  Generating code
+  0 of 1224 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  A05 - Octree.vcxproj -> C:\Users\pierc\source\repos\IGME309-2201\Z_DELETE\A05 - Octree.exe
+  Copying files...
+          1 file(s) copied.
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Basic-Instanced.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Basic.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Basic.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\BasicColor.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\BasicColor.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Line.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Line.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Minimal.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Minimal.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\MinimalRed.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Simplex.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Simplex.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Skybox.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Skybox.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Text.fs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Text.vs
+  C:\Users\pierc\source\repos\IGME309-2201\include\Simplex\Shaders\Wireframe.fs
+  17 File(s) copied
